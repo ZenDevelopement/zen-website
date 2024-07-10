@@ -1,0 +1,87 @@
+{
+  "Player": [
+    { "name": "Auto Eat", "tooltip": "Automatically consumes food when hunger drops", "implemented": false },
+    { "name": "Anti AFK", "tooltip": "Prevents being kicked for inactivity", "implemented": false },
+    { "name": "Auto Potion", "tooltip": "Automatically consumes potions for buffs", "implemented": false },
+    { "name": "Auto Tool", "tooltip": "Automatically selects the best tool for the block being mined", "implemented": false },
+    { "name": "Auto Block", "tooltip": "Automatically places blocks when mining or building", "implemented": false },
+    { "name": "Auto Fish", "tooltip": "Automatically catches fish while fishing", "implemented": false },
+    { "name": "Auto Farm", "tooltip": "Automatically harvests and replants crops", "implemented": false },
+    { "name": "Auto Breed", "tooltip": "Automatically breeds animals when nearby", "implemented": false }
+  ],
+  "HUD": [
+    { "name": "Active modules", "tooltip": "Displays active modules", "implemented": false },
+    { "name": "Watermark", "tooltip": "Adds a watermark to the screen", "implemented": false },
+    { "name": "FPS Counter", "tooltip": "Displays frames per second", "implemented": false },
+    { "name": "Ping Display", "tooltip": "Shows server latency or ping", "implemented": false },
+    { "name": "TPS", "tooltip": "Displays server ticks per second", "implemented": false },
+    { "name": "Entity Info", "tooltip": "Shows health or information about nearby entities", "implemented": false },
+    { "name": "Block Info", "tooltip": "Displays information about the block being looked at", "implemented": false },
+    { "name": "Coords", "tooltip": "Shows player coordinates", "implemented": false },
+    { "name": "Biome Display", "tooltip": "Indicates the current biome", "implemented": false },
+    { "name": "Armor HUD", "tooltip": "Displays enemy armor status", "implemented": false }
+  ],
+  "Render": [
+    { "name": "Better Chat", "tooltip": "Enhances chat functionality", "implemented": false },
+    { "name": "Light Level Overlay", "tooltip": "Shows block light levels", "implemented": false },
+    { "name": "Cave Mapper", "tooltip": "Maps out nearby caves", "implemented": false },
+    { "name": "Custom Selection Box", "tooltip": "Customizes the selection box appearance", "implemented": false },
+    { "name": "Fullbright", "tooltip": "Increases game brightness", "implemented": false },
+    { "name": "Nametags", "tooltip": "Displays nametags above entities", "implemented": false },
+    { "name": "Freecam", "tooltip": "Allows separate control of the camera", "implemented": false },
+    { "name": "Storage ESP", "tooltip": "Highlights nearby storage entities", "implemented": false },
+    { "name": "Waypoints", "tooltip": "Marks locations for reference", "implemented": false }
+  ],
+  "World": [
+    { "name": "Bridge", "tooltip": "Places blocks below the player for speed bridging", "implemented": false },
+    { "name": "Auto Mine", "tooltip": "Automatically mines blocks", "implemented": false },
+    { "name": "Tunnel", "tooltip": "Creates tunnels while mining", "implemented": false },
+    { "name": "Excavate", "tooltip": "Excavates a specified area", "implemented": false },
+    { "name": "Speedmine", "tooltip": "Increases mining speed", "implemented": false }
+  ],
+  "Misc": [
+    { "name": "Bot", "tooltip": "Automates tasks through scripting", "implemented": false },
+    { "name": "Timer", "tooltip": "Adjusts game speed locally", "implemented": false },
+    { "name": "Inventory Manager", "tooltip": "Manages inventory efficiently", "implemented": false }
+  ],
+  "Exploits": [
+    { "name": "Moses", "tooltip": "Allows walking underwater", "implemented": false },
+    { "name": "FastUse", "tooltip": "Speeds up item usage", "implemented": false },
+    { "name": "ColorSigns", "tooltip": "Uses colored text on signs", "implemented": false }
+  ],
+  "Commands": [
+    { "name": ".bind", "tooltip": "Assigns keybinds to modules", "implemented": false },
+    { "name": ".help", "tooltip": "Displays available commands", "implemented": false },
+    { "name": ".gamemode <gamemode>", "tooltip": "Changes client-side game mode", "implemented": false },
+    { "name": ".wb <action> [<parameters>]", "tooltip": "Manipulates client-side world border (set, add, get, center, reset)", "implemented": false },
+    { "name": ".locate <type> <query>", "tooltip": "Locates nearest <type> (feature, biome)", "implemented": false },
+    { "name": ".server", "tooltip": "Server-related commands", "implemented": false },
+    { "name": ".trash", "tooltip": "Permanently deletes held item from inventory", "implemented": false },
+    { "name": ".player <subcommand> [<parameters>]", "tooltip": "Player-related information commands (uuid, namehistory, skin)", "implemented": false },
+    { "name": ".toggle <module>", "tooltip": "Toggles specified module on/off", "implemented": false },
+    { "name": ".fov <value>", "tooltip": "Sets field of view (FOV) to specified value", "implemented": false },
+    { "name": ".brightness <value>", "tooltip": "Adjusts game brightness", "implemented": false },
+    { "name": ".time <set|add|query> [<value>]", "tooltip": "Manipulates client-side time (set/add/query)", "implemented": false },
+    { "name": ".weather <clear|rain|thunder>", "tooltip": "Changes client-side weather", "implemented": false }
+  ],
+  "Movement": [
+    { "name": "Auto Sprint", "tooltip": "Automatically sprints when moving forward", "implemented": false },
+    { "name": "Auto Jump", "tooltip": "Automatically jumps when reaching edges", "implemented": false },
+    { "name": "High Jump", "tooltip": "Increases jump height", "implemented": false },
+    { "name": "Speed", "tooltip": "Increases player movement speed", "implemented": false },
+    { "name": "Flight", "tooltip": "Allows player to fly", "implemented": false },
+    { "name": "Step", "tooltip": "Automatically steps up blocks", "implemented": false },
+    { "name": "Elytra Boost", "tooltip": "Provides additional boost while using elytra", "implemented": false },
+    { "name": "Toggle Sneak", "tooltip": "Toggles sneaking", "implemented": false },
+    { "name": "Safe Walk", "tooltip": "Prevents player from falling off edges", "implemented": false }
+  ],
+  "Combat": [
+    { "name": "Auto Clicker", "tooltip": "Automatically clicks for faster attacks", "implemented": false },
+    { "name": "Kill Aura", "tooltip": "Automatically attacks nearby enemies", "implemented": false },
+    { "name": "Criticals", "tooltip": "Automatically performs critical hits", "implemented": false },
+    { "name": "Reach", "tooltip": "Increases attack reach distance", "implemented": false },
+    { "name": "Bow Aimbot", "tooltip": "Assists in aiming with bows", "implemented": false },
+    { "name": "Projectile Prediction", "tooltip": "Predicts projectile trajectory", "implemented": false },
+    { "name": "Inventory Tweak", "tooltip": "Optimizes inventory management during combat", "implemented": false }
+  ]
+}

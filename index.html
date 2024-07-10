@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <title>Zen Client - Minecraft Utility Mod</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo-title">
+                <a href="/" class="logo-title">
+                    <img src="icon.ico" alt="Zen Client Logo" class="logo"><h1>Zen Client</h1>
+                </a>
+            </div>
+            <div class="button-container">
+                <button class="cta" id="wikiBtn">Wiki</button>
+                <button class="disabled cta" id="addonBtn" disabled>Addons</button>
+                <button class="cta" id="downloadBtn">Download</button>
+            </div>  
+        </div>
+    </header>
+    
+    <main class="container">
+        <section class="features">
+            <h2 id="moduleCounterLabel">Modules <span id="moduleCounter">0/0</span></h2>
+            <div id="moduleCategories" class="module-categories"></div>
+        </section>
+
+        <section class="info">
+            <div class="info-content">
+                <h2>About Zen Client</h2>
+                <p>Zen Client is a Minecraft utility client focused on enhancing your gameplay experience. Compatible with Minecraft versions 1.20.4 - 1.20.6.</p>
+            </div>
+        </section>     
+
+        <section class="team">
+            <h2>Dev Team</h2>
+            <div id="teamMembers" class="team-members"></div>
+        </section>   
+
+        <section class="links">
+            <a href="https://discord.gg/ZenDevelopement" target="_blank" class="discord disabled" disabled>Discord</a>
+            <a href="https://github.com/ZenDevelopement" target="_blank" class="github">GitHub</a>
+            <a href="https://patreon.com/ZenDevelopement" target="_blank" class="patreon disabled" disabled>Donate</a>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Zen Client is not affiliated with Mojang or Microsoft.</p>
+        <p>&copy; 2024 Zen Client. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal Structure -->
+    <div id="customModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <p>Thank you for your interest in Zen Client!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
